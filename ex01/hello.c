@@ -1,6 +1,11 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+
+int main() 
 {
-    printf("Hello World!\n");
+    char input[100];
+    printf("Hello, World!\n");
+    printf("Please enter any content: ");
+    scanf("%s", input);
+    printf("You entered: %s\n", input);
     return 0;
 }
